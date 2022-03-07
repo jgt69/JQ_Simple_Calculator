@@ -1,0 +1,208 @@
+/* ==================== *\
+          FONTS
+\* ==================== */
+@import url(https://fonts.googleapis.com/css?family=Jura:400,300,500,600);
+@import url(https://fonts.googleapis.com/css?family=Signika:400,300,600,700);
+/* =================== *\
+       MAIN STYLES
+\* =================== */
+
+html {
+  position: relative;
+  min-height: 100%;
+  
+}
+
+body {
+  margin-bottom: 60px;
+  background: #EEE8AA;
+}
+
+body > .container { padding: 60px 15px 0; }
+
+/*  CALCULATOR */
+
+.header-calc {
+  text-align: center;
+  font-family: 'Jura', open-sans;
+}
+
+#p1 {
+  font-family: 'Jura', open-sans;
+  font-size: 1.9em;
+  font-weight: bold;
+  color: #a64dff;
+}
+#scr{
+  font-family: 'Signika';
+  font-size: 2.1em;
+}
+sup,
+sub {
+  font-size: 0.75em;
+}
+
+.section-calc {
+  background:#a8b3bd;
+  margin: auto;
+  padding: 0.50em;
+  max-width: 420px;
+  border: 6px solid #708090;
+  border-radius: 10px;
+  box-shadow: 12px 12px 6px #888888;
+}
+
+#scr,
+.bttns {
+  display: flex;
+}
+
+.section-calc input {
+  background: #22ad22;
+  margin: 0.50em auto;
+  padding: 0 0.25em;
+  text-align: right;
+  font-size: 2.5em;
+  letter-spacing: 0.15em;
+  font-family: 'Signika', monospace;
+  border: 5px inset;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.section-calc button {
+  flex: 1;
+  padding: 0.50em 0;
+  margin: 0.25em;
+  text-align: center;
+  font-family: 'Signika', monospace;
+  font-size: 1.3em;
+}
+
+/*  BUTTONS  */
+
+#npow,
+#fact,
+#csvplus,
+#csvprod,
+#power2,
+#inv, 
+#sqr, 
+#power {
+  border: 1px solid #00008B;
+  border-radius: 8px;
+  border-bottom: black 2px solid;
+  background-color: #DAA520; 
+}
+
+#npow:hover,
+#fact:hover, 
+#csvplus:hover, 
+#csvprod:hover, 
+#power2:hover, 
+#inv:hover, 
+#sqr:hover, 
+#power:hover {
+  border: 1px solid #00008B;
+  background-color: #ebcb7a;
+  font-weight: bold;
+}
+
+#plus,
+#minus,
+#divide,
+#mult,
+#percent  {
+  border: 1px solid #00008B;
+  border-radius: 8px;
+  border-bottom: black 2px solid;
+  background-color: #52BAD5;
+}
+
+#plus:hover,
+#minus:hover,
+#divide:hover,
+#mult:hover,
+#percent:hover {
+  border: 1px solid #00008B;
+  background-color: #addfeb;
+  font-weight: bold; 
+}
+
+#int {
+  border: 1px solid #00008B;
+  border-radius: 8px;
+  border-bottom: black 2px solid;
+  background-color: #FFA07A; 	
+}
+
+#int:hover {
+  border: 1px solid #00008B;
+  background-color: #ffc7b3;
+  font-weight: bold;
+  
+}
+
+#decimal,
+#pos-neg {
+  border: 1px solid #00008B;
+  border-radius: 8px;
+  border-bottom: black 2px solid;
+  background-color: #99cc00; 
+}
+
+#decimal:hover,
+#pos-neg:hover {
+  border: 1px solid #00008B;
+  background-color: #e6ff99;
+  font-weight: bold; 
+}
+
+#equal {
+  border: 1px solid #00008B;
+  border-radius: 8px;
+  border-bottom: black 2px solid;
+  background-color: #FFF5EE;
+}
+
+#equal:hover {
+  border: 1px solid #00008B;
+  background-color: #ffe1cc;
+  font-weight: bold;
+}
+
+#clear {
+  border: 1px solid #00008B;
+  border-radius: 8px;
+  border-bottom: #696969 2px solid;
+  background-color: #000000;
+  color:white;
+}
+
+#clear:hover {
+  border: 1px solid #00008B;
+  background-color: silver;
+  color: red;
+  font-weight: bold; 
+}
+
+#num-1, #num-2,
+#num-3, #num-4,
+#num-5, #num-6,
+#num-7, #num-8,
+#num-9, #num-0 {
+  border: 1px solid #00008B;
+  border-radius: 8px;
+  border-bottom: black 2px solid;
+  background-color: #a64dff;
+}
+
+#num-1:hover, #num-2:hover,
+#num-3:hover, #num-4:hover,
+#num-5:hover, #num-6:hover,
+#num-7:hover, #num-8:hover,
+#num-9:hover, #num-0:hover {
+  border: 1px solid #00008B;
+  background-color: #d9b3ff;
+  color: white;
+}

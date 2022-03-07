@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Simple Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+      
+      <!-- CALCULADORA -->
+     <article class="article-calc">
+     	<header class="header-calc">
+          <p id ="p1">SIMPLE CALCULATOR</p>
+        </header>
+ 		 <section class="section-calc" id="calculator">
+       	 <div class="show" id="show">
+            <input id="scr" type="text" min = "1"  max = "12" placeholder="0" readonly>
+         </div>
+     	 <div class="bttns"> 
+          	 <!-- Inverse -->
+            <button id="inv" title="Inverse"><sup>1</sup>&nbsp;&#8725;<sub>x</sub></button>
+             <!-- Factorize -->
+            <button id="fact" title="Factorize">n !</button>
+            <!-- CSV Summ -->
+            <button id="csvplus" title="CSV Summation">&sum;<sup>[x..x<sub>n</sub>]</sup></button>
+            <!-- CSV Mult-->
+            <button id="csvprod" title="CSV Multiplication">&prod;<sup>[x..x<sub>n</sub>]</sup></button> 
+           </div>
+       	 <div class="bttns">
+            <!-- x power to 2-->
+            <button id="power2" title="X power to 2">X<sup>2</sup></button>
+             <!-- 2 power to n -->
+            <button id="npow" title="2 power to n">2<sup>n</sup></button>
+             <!-- x power to y -->
+            <button id="power" title="X power to Y">X<sup>y</sup></button>
+            <!-- Squre Root-->
+            <button id="sqr" title="Square Root">&radic;</button>
+           </div>
+         <div class="bttns">
+            <!-- num 7 -->
+            <button id="num-7" title="7">7</button>
+            <!-- num 8 -->
+            <button id="num-8" title="8">8</button>
+            <!-- num 9 -->
+            <button id="num-9" title="9">9</button>
+            <!-- sum -->
+            <button id="plus" title="Addition">+</button>
+        </div>
+        <div class="bttns">
+        	<!-- num 4 -->
+            <button id="num-4" title="4">4</button>
+            <!-- num 5 -->
+            <button id="num-5" title="5">5</button>
+            <!-- num 6 -->
+            <button id="num-6" title="6">6</button>
+            <!-- Minus -->
+            <button id="minus" title="Minus">&minus;</button>
+        </div>
+        <div class="bttns">
+        	<!-- num 1 -->
+            <button id="num-1" title="1">1</button>
+            <!-- num 2 -->
+            <button id="num-2" title="2">2</button>
+            <!-- num 3 -->
+            <button id="num-3" title="3">3</button> 
+            <!-- Mult -->
+            <button id="mult" title="Multiplication">&times;</button>
+        </div>
+        <div class="bttns">
+            <!-- Integer -->
+            <button id="int" title="Integer">Integer</button>
+            <!-- num 0 -->
+            <button id="num-0" title="0">0</button>
+             <!-- Positive / Negative-->
+            <button id="pos-neg" title="Positive/Negative">&plusmn;</button>
+            <!-- divide -->
+            <button id="divide" title="Divide">&divide;</button>
+          </div>
+          <div class="bttns">
+          	<!-- Clear screen -->
+            <button id="clear" title="Clear Screen">C</button> 
+            <!-- Equal -->
+            <button id="equal" title="Equal">=</button>
+            <!-- Decimal -->
+            <button id="decimal" title="Decimal & CSV Input">·</button>
+            <!-- Percent -->
+            <button id="percent" title="Percent">%</button>
+          </div>
+          <!-- <div class="bttns">
+          	   </div> --> 
+    </section>
+	</article>
+    </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
